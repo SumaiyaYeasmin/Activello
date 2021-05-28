@@ -1,0 +1,155 @@
+/* navbar section */
+.navbar_text{
+    font-size: 13px;
+}
+.navbar_text:hover{
+    color: #b434eb !important;
+    cursor: pointer;
+}
+.text_hover:hover{
+    color: #c158ee !important;
+    cursor: pointer;
+}
+
+.drop_hover:hover{
+    background-color: #b434eb !important;
+    color: #fff !important;
+}
+
+.line2::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 40px;
+    margin-top: 10px;
+    background-color: #a161bf;
+}
+.line1::after{
+    content: '';
+    display: block;
+    position: relative;
+    left: 325px;
+    height: 2px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #a161bf;
+}
+.line3::after{
+    content: '';
+    display: block;
+    position: relative;
+    left: 135px;
+    height: 2px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #a161bf;
+}
+.icon_style{
+    color: rgb(125, 125, 126);
+}
+.post_img1{
+    height: auto;
+    max-width: 100%;
+}
+.search_hover:hover{
+ background-color: #a161bf !important;
+ color: #fff !important;
+}
+
+.img_hover:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* read mone line */
+.read_line::before{
+    content: '';
+    display: block;
+    position: relative;
+    height: 15px;
+    width: 2px;
+    background-color: #fff;
+    left: 412px;
+    top: 18px;
+}
+.read_line::after{
+    content: '';
+    display: block;
+    position: relative;
+    height: 15px;
+    width: 2px;
+    background-color: #fff;
+    left: 530px;
+    bottom: 17px;
+}
+.read_line2::before{
+    content: '';
+    display: block;
+    position: relative;
+    height: 17px;
+    width: 2px;
+    background-color: rgb(12, 12, 12);
+    left: 308px;
+    top: 20px;
+}
+.read_line2::after{
+    content: '';
+    display: block;
+    position: relative;
+    height: 17px;
+    width: 2px;
+    background-color: rgb(12, 11, 11);
+    left: 430px;
+    bottom: 20px;
+}
+
+.footer_backgroud{
+    background-color: #ebeeeb;
+    height: 200px;
+    margin-top: 30px;
+}
+
+/*  */
+@media only screen and (max-width: 600px){
+.img_media{
+  position: relative;
+  left: 15%;
+}
+.line3::after{
+    left: 42%;
+}
+.line1::after{
+   left: 42%;
+  
+}
+.read_line2::before{
+    left: 40%;
+}
+.read_line2::after{
+    left:60%;
+}
+.drop_hover:hover{
+    background-color: #b434eb !important;
+    color: #fff !important;
+}
+}
+
+@media only screen and (min-width: 600px){
+    .img_media{
+        position: relative;
+        left: 15%;
+      }
+}
+
+@media only screen and (min-width: 768px){
+  
+}
+@media only screen and (min-width: 992px){
+  
+}
+
+@media only screen and (min-width: 1200px){
+  
+}
